@@ -1,0 +1,204 @@
+/* 
+
+*** media queries
+*** common
+*** valiable
+
+*** visual
+*** contents__list
+****** 
+****** 
+*** footer
+
+
+
+/*==================================================
+
+*** media queries
+==================================================*/
+/*==================================================
+
+*** valiable
+==================================================*/
+/*==================================================
+
+*** common
+==================================================*/
+.wrap {
+  margin: 0 auto;
+  width: 600px;
+  background: #F8F9FA;
+}
+@media (max-width: 600px) {
+  .wrap {
+    /* < 600px */
+    width: 100%;
+  }
+}
+
+/*==================================================
+
+*** visual
+==================================================*/
+.visual {
+  background: url(../img/PM-Holiday-Image1.jpg) no-repeat 100%/cover;
+}
+
+.visual__inner {
+  padding: 110px 20px;
+}
+
+.visual__inner__title {
+  padding: 30px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.visual__inner__title > h1 {
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #BF0F35;
+}
+
+/*==================================================
+
+*** contents__list
+==================================================*/
+.content__list {
+  margin-bottom: 60px;
+}
+
+.content__list > h2 {
+  padding: 40px 20px 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.contents__list__inner {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 600px) {
+  .contents__list__inner {
+    /* < 600px */
+    display: block;
+  }
+}
+
+.contents__item {
+  width: 46%;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .contents__item {
+    /* < 600px */
+    margin: 0 auto 40px;
+    width: 90%;
+  }
+}
+
+.contents__item > img {
+  width: 100%;
+}
+
+.contents__item__detail {
+  margin-bottom: 20px;
+  padding: 20px 10px 10px;
+  background: #BF0F35;
+  color: #fff;
+  text-align: center;
+}
+
+.contents__item__detail > h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.btn > a {
+  padding: 12px;
+  color: #BF0F35;
+  border: 3px solid #BF0F35;
+  border-radius: 5px;
+}
+
+/*==================================================
+
+*** footer
+==================================================*/
+.footer__sns {
+  padding: 20px;
+  background: #BF0F35;
+}
+
+.footer__sns > p {
+  margin: 21px 0 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px 0 10px;
+  width: 180px;
+}
+
+.footer__sns__link {
+  width: 35px;
+}
+
+.footer__sns__link > a {
+  padding: 0 5px;
+}
+
+.footer__sns__link img {
+  width: 100%;
+}
+
+.footer__bottom {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footer__bottom > small,
+.footer__bottom > p {
+  font-size: 14px;
+}
+
+.footer__bottom > p {
+  margin-bottom: 16px;
+}
+
+.footer__bottom > a {
+  text-decoration: underline;
+}
+
+/*==================================================
+
+
+==================================================*/
+/* ******  ****** */
+/* ******  ****** */
+/* ******  ****** */
+/*==================================================
+
+
+==================================================*/
+/* ******  ****** */
+/* ******  ****** */
+/* ******  ****** */
+/*==================================================
+
+footer
+==================================================*/
+/* ******  ****** */
+/* ******  ****** */
+/* ******  ****** */
